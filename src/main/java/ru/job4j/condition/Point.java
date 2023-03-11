@@ -4,8 +4,7 @@ public class Point {
     public static double distance(int x1, int y1, int x2, int y2) {
         int xDiffer = x2 - x1;
         int yDiffer = y2 - y1;
-        double rsl = Math.sqrt((Math.pow(xDiffer,2)) + Math.pow(yDiffer, 2));
-        return rsl;
+        return Math.sqrt((Math.pow(xDiffer, 2)) + Math.pow(yDiffer, 2));
     }
 
     public static void main(String[] args) {
